@@ -1,0 +1,33 @@
+---
+title: "Simulating data on death by suicide"
+output: html_document
+---
+
+First we simulate our groups?
+We are using the paper by Mortier et al. (2024) to have realistic data that would correspond to the scenario where the main outcome is time to death by suicide after psychiatric discharge.
+
+We create the latent variable (Z): high-risk vs low-risk
+
+The 2 variables (X) included where the following:
+- Mental discorder categories (most signal: depression, bipolar, self-harm)
+- Index self-harm diagnosis;
+- Prior psychiatic hospitalizations in the prev 6 years.
+
+Prognostic only:
+- Age at discharge (bands 10-14 -)
+- Sex.
+
+Noise included in their model (will not be here):
+- Heath region;
+- Discharge year;
+- Income groups;
+- Diagnoses with personality, alcohol / drug, and developmental discorders.
+
+
+
+
+```{r}
+
+```
+
+
